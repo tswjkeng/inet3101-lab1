@@ -2,7 +2,8 @@
 
 // Function to print all records
 void printRecords() {
-    printf("Printed all records.\n");
+    printf("\n\nYou have entered the Print all records function\n\n");
+    printf("'Printed all records'\n\n");
 }
 
 // Function to add records
@@ -37,17 +38,17 @@ void addRecords() {
 
 // Function to delete the last record
 void deleteRecord() {
-    printf("\nRecord deleted\n");
+    printf("\nYou have entered the delete last record function for database\n");
 }
 
 // Function to print the number of records
 void printNumRecord() {
-    printf("\nRecord count\n");
+    printf("\nYou have entered the Print number of records function for database\n");
 }
 
 // Function to print the database size
 void printDataBaseSize() {
-    printf("\nDatabase size\n");
+    printf("\nYou have entered the Print database size function for database\n");
 }
 
 // The parameter 'print' is an int used as a Boolean (1 means print, 0 means increment).
@@ -55,11 +56,11 @@ void printNumChange(int print) {
     static int changes = 0;
 
     if (print) {
-        printf("\nYou have made a change to the database %d times\n", changes);
+        printf("\nYou have modified the database %d times\n", changes);
     }
     else {
         changes++;
-        printf("\n%d change(s) made so far\n", changes);
+        printf("\n%d modificationß so far\n", changes);
     }
 }
 
