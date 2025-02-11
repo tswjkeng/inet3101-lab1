@@ -1,6 +1,6 @@
 # INET3101 - Lab 1
 
-Code for the INET 3101 Lab 1
+## Code for the INET 3101 Lab 1
 
 Simple commad-line menu for a Inventory Mangement System.
 
